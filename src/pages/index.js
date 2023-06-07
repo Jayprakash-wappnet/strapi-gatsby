@@ -1,11 +1,13 @@
 import * as React from "react";
 import MyComponent from "../components/MyComponents";
 import Strapi from "../components/Strapi";
+import Navbar from "../components/Navbar";
 
 const IndexPage = () => {
   return (
     <>
-      <MyComponent myName="jp" />
+      <Navbar />
+      <MyComponent myName="Bob" />
       <Strapi />
     </>
   );
